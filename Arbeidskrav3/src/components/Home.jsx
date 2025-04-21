@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import Profilkort from "./Profilkort";
 import sanityClient from "../sanityClient";
 
+import "../styles/home.scss"
+/* Importerer styling fra home.scss */
+
 /*
 Her lages forsiden. Øverst vises et profilkort for hvert gruppemedlem. Under vises alle loggføringer fra Sanity.
 

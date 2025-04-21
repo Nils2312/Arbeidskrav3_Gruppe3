@@ -4,6 +4,10 @@ Dette er headeren på nettsiden.
 
 import { Link } from "react-router-dom";
 
+import "../styles/header.scss";
+/* Importerer styling fra header.scss */
+
+
 function Header() {
   return (
     <header>

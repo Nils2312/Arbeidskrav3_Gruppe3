@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 
+import "../styles/profilkort.scss"
+/* Importerer styling fra profilkort.scss */
+
+
 /*
 Denne koden viser et lite selve profilkortet med navn, bilde og epost.
 */
