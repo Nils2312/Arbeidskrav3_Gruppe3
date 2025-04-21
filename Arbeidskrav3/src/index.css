@@ -92,33 +92,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.profilside {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 10px;
-}
-
-.profilinfo {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  margin-bottom: 30px;
-}
-
-.profilinfo img {
-  width: 250px;
-  height: auto;
-  border: 1px solid #ccc;
-}
-
-.profilinfo ul {
-  padding-left: 20px;
-}
-
-.bio {
-  margin-bottom: 30px;
-}
-
 .logo {
   font-weight: bold;
   font-size: 1.5rem;
@@ -148,26 +121,4 @@ nav ul li a:hover {
   padding: 1rem;
   margin-bottom: 1rem;
 }
-
-.logg li {
-  background-color: #f0f0f0;
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-.logg ul {
-  list-style: none;
-  padding: 0;
-}
-
-.profilinfo img {
-  border: none;
-}
-
-
-
-
-
-
-
 
