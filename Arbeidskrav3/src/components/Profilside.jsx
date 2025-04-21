@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import sanityClient from "../sanityClient";
-import "../styles/profilside.css"
+import "../styles/profilside.scss"
 
 /*
 Denne koden viser en egen side for hver person. Den tar imot navn, bilde, epost, interesser og bio som props
