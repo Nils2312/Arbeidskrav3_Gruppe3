@@ -8,7 +8,7 @@ Denne koden viser et lite selve profilkortet med navn, bilde og epost.
 export default function Profilkort({ person }) {
   return (
     <article>
-    <Link to={`/${person.slug?.current}`}>
+    <Link to={`/${person.slug?.current}`} className="profilkort">
       <img src={person.image?.asset?.url} alt={person.navn} />
       <h3>{person.navn}</h3>
       </Link>
