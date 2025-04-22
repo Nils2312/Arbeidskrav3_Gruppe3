@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+  
+  .profilkortboks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .loggcontainer {
+    margin-top: 40px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .skille {
+    color: #aaa;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  .loggcontainer {
+    margin: 2rem auto;
+    max-width: 900px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        background-color: #f0f0f0;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+  }

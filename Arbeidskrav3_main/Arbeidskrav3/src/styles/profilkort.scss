@@ -1,0 +1,37 @@
+.profilkort {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    h3 {
+        margin: 10px 0 5px;
+    }
+
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+      }
+  }
+  
+  .profilkort:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /*.profilkort p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }*/
