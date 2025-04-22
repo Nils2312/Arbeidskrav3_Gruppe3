@@ -1,22 +1,19 @@
 import { Link } from "react-router-dom";
-
 import "../styles/profilkort.scss"
-/* Importerer styling fra profilkort.scss */
-
-
 /*
 Denne koden viser et lite selve profilkortet med navn, bilde og epost.
 */
 
-function Profilkort({ navn, epost, bilde }) {
+//endret profilkort til å bruke person fra personServices.js
+export default function Profilkort({ person }) {
   return (
-    <Link to={`/${navn.toLowerCase().replace(" ", "-")}`} className="profilkort">
-      <img src={bilde} alt={navn} />
-      <h3>{navn}</h3>
-      <a href={`mailto:${epost}`}>{epost}</a>
-    </Link>
+    <article>
+    <Link to={`/${person.slug?.current}`}>
+      <img src={person.image?.asset?.url} alt={person.navn} />
+      <h3>{person.navn}</h3>
+      </Link>
+      <a href={`mailto:${person.epost}`}>{person.epost}</a>
+      </article>
+
   );
 }
-
-export default Profilkort;
-
