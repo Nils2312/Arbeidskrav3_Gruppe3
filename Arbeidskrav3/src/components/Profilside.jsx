@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { fetchPersonBySlug } from "../sanity/personServices";
+import "../styles/profilside.scss"
 
 //henter inn samletLogg fra loggServices, deretter bruker slug til å hente gruppemedlem basert på slug. Måtte bruke chatGPT på denne 
 //profilside funksjonen siden den ville ikke vise bilde i linje 24. Også sorterer logg
