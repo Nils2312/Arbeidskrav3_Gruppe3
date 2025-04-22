@@ -16,7 +16,7 @@ export default function Profilside({samletLogg }) {
     };
     getPerson();
   }, [slug]);
-  if (!person) return <div>Laster Inn Gruppemedlem</div>;
+  if (!person) return <p>Laster Inn Gruppemedlem</p>;
 
   //printer ut profilsiden fra personServices, deretter printer ut sortert log
   return (
